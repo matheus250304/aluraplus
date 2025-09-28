@@ -1,0 +1,25 @@
+/*Estudo de elementos de nivel de bloco */
+
+body{
+    font-family: sans-serif;
+
+}
+
+
+
+/*Todos os elementos h1, h2, div, footer, p, span estão com uma borda vermelhra em volta
+E todos eles ocupam a 100% da Area disponivel, gerando quebra de linha
+*/
+h1, h2, div, footer, p, span{
+    border: 3px solid red;
+    
+}
+
+p{
+    width: 50%;
+    padding: 25px;
+}
+
+div{
+    margin: 50px;
+}
